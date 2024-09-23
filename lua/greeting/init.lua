@@ -1,5 +1,5 @@
-local hello = require('test.functions.hello')
-local goodbye = require('test.functions.goodbye')
+local hello = require('greeting.functions.hello')
+local goodbye = require('greeting.functions.goodbye')
 
 vim.api.nvim_create_user_command('Hello', function()
   hello.say_hello()
